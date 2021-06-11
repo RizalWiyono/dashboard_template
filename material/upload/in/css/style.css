@@ -1,0 +1,42 @@
+/* Select Box */
+
+.select-control {
+    color: #969595;
+    font-size: 12px;
+    font-weight: 300;
+    font-family: "Poppins";
+    width: 100px;
+    background-color: #FFFF;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 30px !important;
+}
+
+/* Button Reset */
+.reset-btn
+{
+    color: #969595;
+    font-size: 12px;
+    font-weight: 300;
+    font-family: "Poppins";
+    width: 80px;
+    background-color: #FFFF;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 30px;
+}
+
+.reset-btn:hover
+{
+    color: #fff;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn-sbmt {
+    height: 30px;
+    font-size: 10px !important;
+    font-weight: 300;
+    font-family: "Poppins";
+}

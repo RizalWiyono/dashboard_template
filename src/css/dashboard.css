@@ -1,0 +1,102 @@
+html,
+body {
+  height: 100%;
+  background-color: #000 !important;
+}
+
+.logo-rrg {
+  position: absolute;
+  bottom: 0;
+  width: 40%;
+  left: 0;
+  z-index: 1;
+}
+
+.logo {
+  width: 25%;
+  margin-top: 20%;
+}
+
+.place{
+  background: #282828;
+  border-radius: 15px;
+  z-index: 2;
+  margin-top: 10%;
+}
+
+.title{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.3vw;
+  color: #FFB600;
+  margin-top: 20%;
+}
+
+.ic-title{
+  width: 45%;
+  margin-top: 20%;
+}
+
+.cont {
+  width: 40%;
+  margin: auto;
+  z-index: 99999 !important;
+  height: 75%;
+}
+
+.left-section {
+  position: relative;
+  width: 44%;
+  float: left;
+  height: 48%;
+  background: #282828;
+  border-radius: 15px;
+  z-index: 99999 !important;
+  margin-top: 17%;
+  cursor: pointer;
+}
+
+.left-section:hover {
+  transition: 0.5s;
+  background: #141414;
+}
+
+.center-section {
+  width: 12%;
+  float: left;
+  height: 48%;
+  z-index: 99999 !important;
+  background-color: transparent;
+}
+
+.right-section {
+  width: 44%;
+  float: left;
+  height: 48%;
+  background: #282828;
+  border-radius: 15px;
+  z-index: 99999 !important;
+  cursor: pointer;
+  margin-top: 17%;
+}
+
+.right-section:hover {
+  transition: 0.5s;
+  background: #141414;
+}
+
+.desc-title{
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-size: 1.2vw;
+  color: #FFFFFF;
+  position: fixed;
+  bottom: 3%;
+  right: 0;
+  left: 0;
+}
+
+.desc-section{
+  position: relative;
+}
